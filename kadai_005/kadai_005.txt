@@ -1,0 +1,25 @@
+ 
+$ git init
+Initialized empty Git repository in 
+
+  (master)
+$ git add .
+
+  (master)
+$ git commit -m "hello_world.txtを追加"
+[master (root-commit) caafebf] hello_world.txtを追加
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+
+  (master)
+$ git add .
+
+  (master)
+$ git commit -m "日本語訳を追記"
+[master ff746c5] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+  (master)
+$ git log --oneline
+ff746c5 (HEAD -> master) 日本語訳を追記
+caafebf hello_world.txtを追加
